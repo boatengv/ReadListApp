@@ -1,0 +1,19 @@
+.grid-container {
+    display: grid;
+    background-color: black;
+    grid-template-columns: 32% 32% 34%;
+    height: 85vh;
+    gap: 1%;
+}
+
+.item1 {
+    background-color: gray;
+}
+
+.item2 {
+    background-color: gray;
+}
+
+.item3 {
+    background-color: grey;
+}
