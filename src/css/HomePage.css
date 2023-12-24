@@ -1,7 +1,10 @@
+body{
+    background-color: #87A96B;
+}
+
 .Board {
-    margin-top: 10vh;
-    height: 85vh;
-    width: 80%;
-    float: right;
-    border: thick solid black;
+    width: 96%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 2%;
 }

@@ -5,18 +5,14 @@ import { useState } from 'react'
 
 export const ReadListItem = ({book, onStateChange}) => {
     
-    console.info('book is',book)
-
     const [open, setOpen] = useState(false)
     const {book_id, title, author, state} = book;
 
     return(
         <div className="BookItem" onClick={()=> setOpen(!open)}>
             
-            <p>{book_id}</p>
-            <p>{title}</p>
-            <p>{author}</p>
-            <p>{state}</p>
+            <img className='BookItemImage' src='https://ia600903.us.archive.org/view_archive.php?archive=/8/items/l_covers_0000/l_covers_0000_00.tar&file=0000000001-L.jpg' alt="Logo"/>
+            <p>{title}</p><p>{author}</p>
 
             {open && 
             <>
